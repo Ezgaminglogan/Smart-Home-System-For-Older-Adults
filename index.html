@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Smart Home System for Older Adults</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        body {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .phone-frame {
+            width: 360px;
+            height: 740px;
+            border: 16px black solid;
+            border-top: 32px black solid;
+            border-bottom: 32px black solid;
+            border-radius: 36px;
+            position: relative;
+            overflow: hidden;
+        }
+        .phone-screen {
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            overflow-y: auto;
+        }
+        .camera {
+            width: 60px;
+            height: 5px;
+            background: #333;
+            border-radius: 10px;
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .speaker {
+            width: 30px;
+            height: 30px;
+            background: #333;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="phone-frame">
+        <div class="camera"></div>
+        <div class="speaker"></div>
+        <div class="phone-screen">
+            <div class="w-full max-w-md mx-auto">
+                <div class="text-center py-4 border-b">
+                    <h1 class="text-lg font-semibold">Smart Home System for Older Adults</h1>
+                </div>
+                <div class="text-center py-4">
+                    <h2 class="text-xl font-bold">WELCOME</h2>
+                </div>
+                <div class="flex justify-center py-4">
+                    <img alt="Illustration of an elderly couple" class="w-24 h-24" src="https://storage.googleapis.com/a1aa/image/cxJEwncG8UqVE1YIY5w9Zxp3MvN8Ly3fm4kfK08YIcHmRqrTA.jpg" />
+                </div>
+                <div class="grid grid-cols-3 gap-2 py-4">
+                    <div class="bg-blue-700 text-center text-white py-4">
+                        <img alt="Light bulb icon" class="mx-auto mb-2" src="https://storage.googleapis.com/a1aa/image/zfmMVfuqreDPdJCeiPl5eBNTciFm2MKWTYOuEuSMct0GNSddC.jpg" />
+                        <p>Lights</p>
+                    </div>
+                    <div class="bg-red-900 text-center text-white py-4">
+                        <img alt="Door icon" class="mx-auto mb-2" src="https://storage.googleapis.com/a1aa/image/WafON3ghNRXATiTeyjgcovn0eXsiYrJ17WbEBu002NxKjUXnA.jpg" />
+                        <p>Doors</p>
+                    </div>
+                    <div class="bg-red-600 text-center text-white py-4">
+                        <img alt="Thermostat icon" class="mx-auto mb-2" src="https://storage.googleapis.com/a1aa/image/VFxVQ4Fa6hJSN91Dff98HVcJWoZORxhu7XeC9dYJoCJSjUXnA.jpg" />
+                        <p>Thermostat</p>
+                    </div>
+                </div>
+                <div class="fixed bottom-20 right-4">
+                    <button class="bg-pink-500 text-white rounded-full p-2 shadow-lg">
+                        <i class="fas fa-question-circle"></i> HELP
+                    </button>
+                </div>
+                <div class="flex justify-center py-4">
+                    <button class="bg-red-500 text-white rounded-full p-4 shadow-lg">
+                        <i class="fas fa-microphone text-3xl"></i>
+                    </button>
+                </div>
+                <div class="text-center py-4">
+                    <p class="text-sm">Feedback</p>
+                    <p class="text-sm">*To get started just click the ICON Voice or click the buttons</p>
+                    <p class="text-sm">Version 1.0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
